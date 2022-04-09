@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "bold";
+    src: url("fonts/AnyConv.com__Gotham-Bold.woff") format('woff');
+}
+
+@font-face {
+    font-family: "light";
+    src: url("fonts/AnyConv.com__Gotham-Light.woff") format('woff');
+}
+
+body {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+
+#car-list {
+    width: 500px;
+    height: 500px;
+    background-color: #fafaffcc;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
+
+#message-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    font-family: "light";
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column-elm {
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: "bold";
+    font-size: 18px;
+}
+
+.list-elm {
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: "light";
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-family: "light";
+    border: none;
+    background-color: #c11b20;
+    color: #fafaff;
+}

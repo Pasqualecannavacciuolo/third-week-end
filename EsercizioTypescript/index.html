@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  type="text/javascript" src="Main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- This is the base div to print the car table from javascript -->
+    <div class="flex-container">
+        <div id="car-list"></div>
+        <div id="message-wrapper"></div>
+
+        <!-- This wrapper contains the buttons to perform actions with the list of cars-->
+        <div class="button-wrapper">
+            <button id="btnHeav" class="btn" onclick="printHeaviest()">HEAVIEST</button>
+            <button id="btnList" class="btn" onclick="printCarTable()">PRINT LIST</button>
+            <button id="btnMed" class="btn" onclick="printMediaCv()">MEDIA CV</button>
+        </div>
+    </div>
+
+</body>
+</html>
