@@ -25,6 +25,15 @@ body {
 #car-list {
     width: 500px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
+
+.generated {
+    width: 500px;
+    height: 500px;
     background-color: #fafaffcc;
     display: flex;
     flex-direction: column;

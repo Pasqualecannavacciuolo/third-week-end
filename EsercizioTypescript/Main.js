@@ -101,6 +101,7 @@ var printMediaCv = function () {
 var printCarTable = function () {
     // Locking the father container
     var father = document.getElementById('car-list');
+    father.classList.add('generated');
     var container = document.createElement("DIV");
     container.classList.add('container');
     var columnBrand = document.createElement("DIV");

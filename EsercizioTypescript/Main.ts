@@ -121,6 +121,7 @@ const printCarTable = () => {
 
     // Locking the father container
     let father = document.getElementById('car-list');
+    father.classList.add('generated');
 
     let container = document.createElement("DIV");
     container.classList.add('container');
