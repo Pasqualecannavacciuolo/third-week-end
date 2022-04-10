@@ -1,0 +1,67 @@
+:root {
+    --body-bg-color: #9ebb63;
+    --background-color: #9dba39;
+    --element-color: #bacf72;
+    --border-color: #e1f2ab;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+/* Father container */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 700px;
+    padding: 100px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--background-color);
+}
+
+label, input {
+    width: 50%;
+}
+
+label {
+    align-self: center;
+}
+
+input {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+.step {
+    text-align: start;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.element-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--element-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.recupero {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+}

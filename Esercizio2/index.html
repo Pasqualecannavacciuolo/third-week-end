@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercizio 2</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form-dati">
+
+            <!-- STEP 1 -->
+            <h1 class="step">Step 1: Dati della rete</h1>
+            <div class="element-wrapper">
+                <label for="NomeCognome">Nome e Cognome del responsbile</label>
+                <input type="text" for="NomeCognome" placeholder="Nome e Cognome">
+            </div>
+            <div class="element-wrapper">
+                <label for="indirizzo">Indirizzo</label>
+                <input type="text" for="indirizzo" placeholder="Indirizzo">
+            </div>
+            <div class="element-wrapper">
+                <label for="nSedi">Numeri delle sedi dell'azienda</label>
+                <input type="tel" for="nSedi" placeholder="sedi">
+            </div>
+            <div class="element-wrapper">
+                <label for="dataComp">Data di compilazione</label>
+                <input type="date" for="dataComp" placeholder="gg/mm/aaaa">
+            </div>
+
+            <!-- STEP 2 -->
+            <h1 class="step">Step 2: Dimensioni della rete in base alla tipologia</h1>
+            <div class="element-wrapper">
+                <label for="LAN">LAN</label>
+                <input type="checkbox" for="LAN">
+            </div>
+            <div class="element-wrapper">
+                <label for="MAN">MAN</label>
+                <input type="checkbox" for="MAN">
+            </div>
+            <div class="element-wrapper">
+                <label for="WAN">WAN</label>
+                <input type="checkbox" for="WAN">
+            </div>
+            <div class="element-wrapper">
+                <label for="altro">Altro</label>
+                <input type="text" for="altro" placeholder="specificare">
+            </div>
+
+            <!-- STEP 3 -->
+            <h1 class="step">Step 3: E' già nota la forma della rete?(topologia)</h1>
+            <div class="element-wrapper">
+                <label for="stella">A stella</label>
+                <input type="radio" for="stella">
+            </div>
+            <div class="element-wrapper">
+                <label for="bus">A bus</label>
+                <input type="radio" for="bus">
+            </div>
+            <div class="element-wrapper">
+                <label for="albero">Ad albero</label>
+                <input type="radio" for="albero">
+            </div>
+            <div class="element-wrapper">
+                <label for="altro">Altro</label>
+                <input type="text" for="altro" placeholder="specificare">
+            </div>
+
+            <!-- STEP 4 -->
+            <h1 class="step">Step 4: Caratteristiche del PC</h1>
+            <div class="element-wrapper">
+                <label class="recupero" for="recuper">Recupera tutti i dati del tuo PC</label>
+            </div>
+            <div class="element-wrapper">
+                <label for="Processore">Processore</label>
+                <input type="text" for="Processore" placeholder="Processore">
+            </div>
+            <div class="element-wrapper">
+                <label for="ram">RAM</label>
+                <input type="text" for="ram" placeholder="RAM">
+            </div>
+            <div class="element-wrapper">
+                <label for="C">C</label>
+                <input type="text" for="C" placeholder="c">
+            </div>
+            <div class="element-wrapper">
+                <label for="D">D</label>
+                <input type="text" for="D" placeholder="d">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
